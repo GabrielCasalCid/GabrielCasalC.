@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Casal — Portfolio</title>
+<meta name="description" content="Gabriel Casal — vibe coder and junior developer with a graphic design background. Software development, project engineering, and sales.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+<div class="grain"></div>
+
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
+
+<header id="header">
+  <nav class="nav container">
+    <a href="#home" class="logo">GC<span>.</span></a>
+    <button id="navToggle" class="nav-toggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="navMenu" class="nav-menu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section id="home" class="hero container">
+    <p class="eyebrow reveal">Hi, I'm</p>
+    <h1 class="reveal">Gabriel Casal</h1>
+    <p class="hero-role reveal">Junior Developer · Vibe Coder · Graphic Design · Project Engineering · Sales</p>
+    <p class="hero-desc reveal">I turn ideas into working products — from writing the code to selling the project. Learning by building fast, with AI as a copilot, always focused on delivering real results for the client.</p>
+    <div class="hero-actions reveal">
+      <a href="#projects" class="btn btn-primary">View projects</a>
+      <a href="#contact" class="btn btn-ghost">Let's talk</a>
+    </div>
+  </section>
+
+  <section class="stats-strip container reveal">
+    <div class="stat">
+      <span class="stat-num" data-target="3">0</span>
+      <p>Projects, finished and in progress</p>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-target="100">0</span><span class="stat-suffix">%</span>
+      <p>Learning by building with AI</p>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-target="3">0</span>
+      <p>Hats worn: dev, project management, sales</p>
+    </div>
+  </section>
+
+  <section id="about" class="section container">
+    <h2 class="section-title reveal"><span class="num">01.</span> About</h2>
+    <div class="about-grid reveal">
+      <p class="about-text">
+        I'm Gabriel Casal, a vibe coder and junior developer with a graphic design background. I build quickly using AI tools,
+        iterate on the real product, and learn by solving concrete client problems. That design sensibility, combined with
+        experience in project engineering and sales, lets me understand not just how to build a solution, but why the client
+        needs it, how it should look, and how to deliver real value.
+      </p>
+      <ul class="about-facts">
+        <li><span>Role</span>Junior Developer / Vibe Coder</li>
+        <li><span>Design</span>Graphic design background</li>
+        <li><span>Focus</span>Project Engineering + Sales</li>
+        <li><span>Stack</span>JS, Python, Odoo, No-code/AI</li>
+        <li><span>Availability</span>Open to projects</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section container">
+    <h2 class="section-title reveal"><span class="num">02.</span> Projects</h2>
+    <div id="projectsGrid" class="projects-grid"></div>
+  </section>
+
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>Available for new projects</span><span class="dot">•</span>
+      <span>Vibe coding</span><span class="dot">•</span>
+      <span>Project engineering</span><span class="dot">•</span>
+      <span>Sales</span><span class="dot">•</span>
+      <span>Available for new projects</span><span class="dot">•</span>
+      <span>Vibe coding</span><span class="dot">•</span>
+      <span>Project engineering</span><span class="dot">•</span>
+      <span>Sales</span><span class="dot">•</span>
+    </div>
+  </div>
+
+  <section id="skills" class="section container">
+    <h2 class="section-title reveal"><span class="num">03.</span> Skills</h2>
+    <div class="skills-grid reveal">
+      <div class="skill-card">
+        <h3>Development</h3>
+        <div class="tags">
+          <span>JavaScript</span><span>Python</span><span>HTML/CSS</span><span>Odoo (dev)</span><span>REST APIs</span><span>Git/GitHub</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Vibe Coding / AI</h3>
+        <div class="tags">
+          <span>Claude Code</span><span>Prompting</span><span>Rapid prototyping</span><span>Automation</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Graphic Design</h3>
+        <div class="tags">
+          <span>Visual design</span><span>UI/UX sensibility</span><span>Branding</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Project Engineering</h3>
+        <div class="tags">
+          <span>Requirements gathering</span><span>Planning</span><span>Delivery management</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Sales</h3>
+        <div class="tags">
+          <span>Negotiation</span><span>Solution presentations</span><span>Client relationships</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section container">
+    <h2 class="section-title reveal"><span class="num">04.</span> Contact</h2>
+    <div class="contact-box reveal">
+      <p>Got a project in mind, or just want to talk? Reach out.</p>
+      <div class="contact-links">
+        <a href="mailto:privategcc@proton.me">✉ privategcc@proton.me</a>
+        <a href="https://github.com/GabrielCasal" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/gabriel-casal-40a491276" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p class="container">© <span id="year"></span> Gabriel Casal — built by hand (with an AI copilot), not a stock template.</p>
+</footer>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
